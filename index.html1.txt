@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebNova Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    header {
+      background: black;
+      color: white;
+      padding: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .projects p {
+      background: white;
+      margin: 10px auto;
+      padding: 10px;
+      width: 200px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      background: #25D366;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #1ebe5d;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>WebNova</h1>
+  <p>We build websites that grow your business</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I create modern, fast and responsive websites for businesses.</p>
+</section>
+
+<section class="projects">
+  <h2>My Projects</h2>
+  <p>Gym Website</p>
+  <p>Salon Website</p>
+  <p>Coaching Website</p>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <p>Click below to chat on WhatsApp</p>
+
+  <!-- 🔥 WHATSAPP BUTTON WITH YOUR NUMBER -->
+  <a href="https://wa.me/918115752868?text=Hello%20I%20want%20a%20website" 
+     class="btn" target="_blank">
+     Contact on WhatsApp
+  </a>
+
+</section>
+
+<footer>
+  © 2026 WebNova | All Rights Reserved
+</footer>
+
+</body>
+</html>
